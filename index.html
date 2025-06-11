@@ -23,7 +23,7 @@
       <!-- About Section  -->
       <section id="about">
         <h2>About Me</h2>
-        <img src="" alt="Rashid-Subhani" width="200" />
+        <img src="assets/images/user (1).png" alt="Rashid-Subhani" width="200" />
         <article>
           <p>
             I'm a passionate Full Stack Web Developer with expertise in both
@@ -44,10 +44,74 @@
           </p>
         </article>
       </section>
+
+      <!-- Projects section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <article>
+          <h3>Weather Dashboard</h3>
+          <img src="assets/images/weather (1).jpg" alt="Project One" width="300" height="250"/>
+          <p>
+            A responsive weather dashboard that provides real-time weather information, featuring dynamic data fetching and a user-friendly interface.
+          </p>
+        </article>
+        <article>
+          <h3>Team Profile Generator</h3>
+          <img src="assets/images/team-sample (1).png" alt="Project Two" width="300" height="250"/>
+          <p>
+           Empower's team identity with Team profile generator. A user friendly tool designed for quick and concise team introductions.
+          </p>
+        </article>
+      </section>
+
+      <!-- Contact Section  -->
+      <section id="contact">
+        <h2>Get In Touch</h2>
+        <h3>Contact Information</h3>
+        <div class="contact-text">
+          <h4>Email</h4>
+          <a href="mailto:ras.sub2003@gmail.com">ras.sub2003@gmail.com</a>
+        </div>
+        <div class="contact-text">
+          <h4>Phone</h4>
+          <a href="tel:+447727868797">+44-7727-868797</a>
+        </div>
+        <div class="contact-form">
+          <h3>Send Me a Message</h3>
+          <form action="index.php">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Your Name"
+                required
+              />
+            </div><br>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+                required
+              />
+            </div><br>
+            <div class="form-group">
+              <label for="message">Message</label><br>
+              <textarea name="message" id="message" rows="10" cols="40" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
     <!-- Footer  -->
     <footer>
-        <p>&copy; 2025 Rashid Subhani. All rights reserved.</p>
+      <p>&copy; 2025 Rashid Subhani. All Rights Reserved.</p>
+      <p>Portfolio created with HTML and CSS</p>
     </footer>
   </body>
 </html>
