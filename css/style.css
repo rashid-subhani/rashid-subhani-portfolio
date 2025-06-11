@@ -49,3 +49,51 @@ nav ul li a{
 nav ul li a:hover{
     color: #ffc107;
 }
+
+/* About section  */
+#about{
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+#about img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#about article p{
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* Projects section  */
+#projects{
+    padding: 40px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+#projects h2{
+    margin-bottom: 20px;
+}
+
+/* projects side by side  */
+#projects article{
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    vertical-align: top;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    
+}
+
+#projects img{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
