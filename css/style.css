@@ -97,3 +97,75 @@ nav ul li a:hover{
     border-radius: 4px;
 }
 
+/* Contact section  */
+#contact{
+    padding: 40px 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+}
+.contact-text h4{
+    margin-top: 10px;
+    color: #007bff;
+}
+.contact-text a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.contact-text a:hover{
+    color: #007bff;
+}
+.contact-form{
+    margin-top: 30px;
+}
+.form-group label{
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #495057;
+}
+/* Footer  */
+footer{
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive  */
+@media screen and (max-width: 768px) {
+  #projects article {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
